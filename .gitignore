@@ -1,0 +1,70 @@
+### 기본적인 Git Ignore 규칙 ###
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### 빌드 관련 디렉토리 ###
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### Eclipse/STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+### VS Code ###
+.vscode/
+
+### 환경 설정 파일 ###
+application.properties
+.env
+*.env
+
+### 로그 파일 ###
+*.log
+logs/
+spring.log
+
+### 운영 체제 파일 ###
+# macOS 디렉토리
+.DS_Store
+
+### Windows 디렉토리 ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### 기타 ###
+node_modules/
+
+### Swagger 문서 빌드 결과 ###
+swagger-ui.html
